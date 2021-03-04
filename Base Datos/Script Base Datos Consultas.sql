@@ -1,7 +1,7 @@
---CREATE DATABASE MANTENIMIENTO
---GO
---USE MANTENIMIENTO
---GO
+CREATE DATABASE MANTENIMIENTO
+GO
+USE MANTENIMIENTO
+GO
 
 
 create table EmployeeDetails (
@@ -42,8 +42,8 @@ primer_apellido varchar(50),
 segundo_apellido varchar(50), 
 tipo_documento_id int FOREIGN KEY REFERENCES tipo_documento (id), 
 celular int, 
-direcci髇 varchar(100),
-correo_electr髇ico varchar(100)
+direcci贸n varchar(100),
+correo_electr贸nico varchar(100)
 )
 
 go
@@ -56,9 +56,9 @@ primer_apellido varchar(50),
 segundo_apellido varchar(50), 
 tipo_documento_id int FOREIGN KEY REFERENCES tipo_documento (id), 
 celular int, 
-direcci髇 varchar(100),
+direcci贸n varchar(100),
 estado varchar(5),
-correo_electr髇ico varchar(100)
+correo_electr贸nico varchar(100)
 )
 
 go
